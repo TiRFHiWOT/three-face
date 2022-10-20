@@ -1,0 +1,175 @@
+body {
+    background-color: rgba(185,193,233,255);
+    margin: 0px;
+    padding: 0px;
+}
+.big-box {
+    display: flex;
+    margin: 85px;
+    justify-content: space-around;
+}
+.first-face,
+.second-face,
+.third-face {
+    border-radius: 25px;
+    margin: 20px;
+    background-color: rgba(0,26,157);
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 1px 5px black;
+}
+.first-face {
+    flex:1;
+    position: relative;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    position: absolute;
+    top: 40px;
+    right: 20px; 
+    color: white;    
+}
+.face {
+    position: relative;
+    display: block;
+    margin: 15px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(139, 139, 139);
+}
+.face:nth-child(odd) {
+    background-color: rgba(255,255,255,255);
+}
+.face:nth-child(even) {
+    background-color: rgba(251,220,217,255);
+}
+h1 {
+    padding: 5px;
+    padding-left: 15px;
+    color: white;
+}
+h2 {
+    padding: 15px;
+    color: rgba(2,28,157,255);
+}
+.hot-topic {
+    position: absolute;
+    background-color: rgba(255,255,255,255);
+    font-size: 14px;
+    width: 90px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    top: 40px;
+    text-align: center;
+}
+.topic {
+    background-color: rgba(251,220,217,255);
+    font-size: 14px;
+    width: 90px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    text-align: center
+}
+.second-face {
+    position: relative;
+    flex:1;
+    background-image: url("/image/flat.png"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.people {
+    text-align: center;
+    margin-top: 59%;
+    font-size: 50px;
+    letter-spacing: 20px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: rgba(0,26,157,255);
+}
+.start {
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+    background-color: rgba(0,26,157,255);
+    color: white;
+    padding: 20px 80px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+span {
+    color: black;
+}
+.third-face {
+    flex:1;
+    color: white;
+    position: relative;
+}
+#back {
+    position: absolute;
+    left: 20px;
+    color: white;
+}
+#bookmark {
+    color: white;
+}
+.para {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 60px;
+}
+.head {
+    color: rgba(0,26,157);
+    padding:20px 20px 0px 20px;
+}
+.read {
+    background-color: white;
+    border: 1px dashed pink;
+    padding: 15px;
+    margin: 0px 15px ;
+    font-size: smaller;
+    border-radius: 25px;
+}
+.read-1 {
+    padding: 0px 20px 0px 1px;
+    color: gray;
+}
+.four {
+    color: white;
+    background-color: rgba(0,26,157);
+    padding: 5px;
+    border-radius: 15px;
+}
+.read-2 {
+    padding: 0px 5px 0px 33px;
+}
+.read-3 {
+    background-color: pink;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+.para-1 {
+    margin: 15px;
+    line-height: 25px;
+}
+.image {
+    width: 320px;
+    margin: 0px 17px 35px 17px;
+    border-radius: 25px;
+}
+.at {
+    position: absolute;
+    bottom: 15px;
+    left: 140px;
+    text-decoration: none;
+    font-size: smaller;
+    color: rgba(0,26,157);    
+}
+    
